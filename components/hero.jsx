@@ -83,7 +83,7 @@ export default function Hero() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              Photo
+              <Image src="/profile.jpg" alt="Profile" width={100} height={100} />
             </motion.div>
           </motion.div>
         </motion.div>

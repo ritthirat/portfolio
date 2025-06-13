@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 export default function Hero() {
     return (
         <div className="max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-12">
@@ -73,17 +74,21 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.5 }}
         >
           <motion.div
-            className="w-64 h-64 bg-indigo-600/20 dark:bg-indigo-600/40 rounded-full flex items-center justify-center relative"
+            className="w-96 h-96 bg-indigo-600/20 dark:bg-indigo-600/40 rounded-full flex items-center justify-center relative"
             animate={{ boxShadow: ["0 0 0 0 rgba(99, 102, 241, 0.4)", "0 0 0 20px rgba(99, 102, 241, 0)"] }}
             transition={{ duration: 2, repeat: Infinity, repeatType: "loop" }}
           >
             {/* Replace with your profile image */}
             <motion.div
-              className="w-56 h-56 bg-gray-300 dark:bg-gray-700 rounded-full flex items-center justify-center text-4xl font-bold text-gray-500 dark:text-gray-400"
+              className="w-88 h-88 bg-gray-300 dark:bg-gray-700 rounded-full flex items-center justify-center text-4xl font-bold text-gray-500 dark:text-gray-400 overflow-hidden"
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <Image src="/profile.jpg" alt="Profile" width={100} height={100} />
+              <img 
+                src="/profile.jpg" 
+                alt="Profile" 
+                className="w-full h-full object-cover rounded-full"
+              />
             </motion.div>
           </motion.div>
         </motion.div>

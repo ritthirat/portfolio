@@ -80,7 +80,7 @@ export default function Hero() {
           >
             {/* Replace with your profile image */}
             <motion.div
-              className="w-88 h-88 bg-gray-300 dark:bg-gray-700 rounded-full flex items-center justify-center text-4xl font-bold text-gray-500 dark:text-gray-400 overflow-hidden"
+              className="w-[22rem] h-[22rem] bg-gray-300 dark:bg-gray-700 rounded-full flex items-center justify-center text-4xl font-bold text-gray-500 dark:text-gray-400 overflow-hidden"
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >

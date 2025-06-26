@@ -329,7 +329,8 @@ export default function About() {
                         viewport={{ once: true }}
                     >
                         <motion.a
-                            href="#contact"
+                            href="https://drive.usercontent.google.com/u/1/uc?id=1VXcO7g9vZA65tqCEjrJ9N4GDKrmV0WZ4&export=download"
+                            download="Rittirat_Moonwong_CV.pdf"
                             className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}

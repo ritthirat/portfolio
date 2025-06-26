@@ -66,7 +66,7 @@ export default function Skill() {
                                 <h4 className="font-medium">JavaScript & TypeScript</h4>
                             </div>
                             <div className="mt-2 pl-3 border-l-2 border-yellow-200 dark:border-yellow-700/50">
-                                <p className="text-sm text-gray-500 dark:text-gray-400">ES6+, async/await, type safety, DOM manipulation</p>
+                                <p className="text-sm text-gray-500 dark:text-gray-400">async/await, type safety, DOM manipulation</p>
                             </div>
                         </motion.div>
 
@@ -190,9 +190,9 @@ export default function Skill() {
                                         <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd" />
                                     </svg>
                                 </div>
-                                <h4 className="text-lg font-semibold">UI/UX Design</h4>
+                                <h4 className="text-lg font-semibold">การออกแบบ UI/UX</h4>
                             </div>
-                            <p className="text-gray-600 dark:text-gray-300">Creating intuitive interfaces with focus on user experience and accessibility.</p>
+                            <p className="text-gray-600 dark:text-gray-300">สร้างอินเทอร์เฟซที่ใช้งานง่ายโดยเน้นประสบการณ์ของผู้ใช้และการเข้าถึง</p>
                         </motion.div>
 
                         <motion.div
@@ -209,9 +209,9 @@ export default function Skill() {
                                         <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
                                     </svg>
                                 </div>
-                                <h4 className="text-lg font-semibold">Project Management</h4>
+                                <h4 className="text-lg font-semibold">การจัดการโครงการ</h4>
                             </div>
-                            <p className="text-gray-600 dark:text-gray-300">Managing projects, team collaboration, agile methodology, and meeting delivery timelines.</p>
+                            <p className="text-gray-600 dark:text-gray-300">บริหารโครงการ ร่วมมือกับทีม วิธีการ agile และการส่งมอบตามกำหนดเวลา</p>
                         </motion.div>
 
                         <motion.div
@@ -228,9 +228,9 @@ export default function Skill() {
                                         <path fillRule="evenodd" d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z" clipRule="evenodd" />
                                     </svg>
                                 </div>
-                                <h4 className="text-lg font-semibold">Communication</h4>
+                                <h4 className="text-lg font-semibold">การสื่อสาร</h4>
                             </div>
-                            <p className="text-gray-600 dark:text-gray-300">Clear and effective communication with clients and team members.</p>
+                            <p className="text-gray-600 dark:text-gray-300">การสื่อสารที่ชัดเจนและมีประสิทธิภาพกับลูกค้าและทีมงาน</p>
                         </motion.div>
 
                         <motion.div
@@ -247,9 +247,9 @@ export default function Skill() {
                                         <path d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z" />
                                     </svg>
                                 </div>
-                                <h4 className="text-lg font-semibold">Problem Solving</h4>
+                                <h4 className="text-lg font-semibold">การแก้ไขปัญหา</h4>
                             </div>
-                            <p className="text-gray-600 dark:text-gray-300">Creative solutions to complex challenges through analytical thinking.</p>
+                            <p className="text-gray-600 dark:text-gray-300">สร้างสรรค์วิธีแก้ปัญหาที่ซับซ้อนด้วยการคิดวิเคราะห์</p>
                         </motion.div>
                     </motion.div>
 
@@ -287,17 +287,9 @@ export default function Skill() {
                                 initial={{ opacity: 0, scale: 0.9 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 whileHover={{ y: -2, boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)" }}
-                                transition={{ duration: 0.2, delay: 0.05 }}
-                                viewport={{ once: true }}
-                            >Figma</motion.span>
-                            <motion.span
-                                className="px-4 py-2 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium"
-                                initial={{ opacity: 0, scale: 0.9 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                whileHover={{ y: -2, boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)" }}
                                 transition={{ duration: 0.2, delay: 0.1 }}
                                 viewport={{ once: true }}
-                            >Adobe XD</motion.span>
+                            >Canva</motion.span>
                             <motion.span
                                 className="px-4 py-2 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium"
                                 initial={{ opacity: 0, scale: 0.9 }}
@@ -305,7 +297,7 @@ export default function Skill() {
                                 whileHover={{ y: -2, boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)" }}
                                 transition={{ duration: 0.2, delay: 0.15 }}
                                 viewport={{ once: true }}
-                            >Git</motion.span>
+                            >GitLab</motion.span>
                             <motion.span
                                 className="px-4 py-2 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium"
                                 initial={{ opacity: 0, scale: 0.9 }}
@@ -321,15 +313,8 @@ export default function Skill() {
                                 whileHover={{ y: -2, boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)" }}
                                 transition={{ duration: 0.2, delay: 0.25 }}
                                 viewport={{ once: true }}
-                            >Docker</motion.span>
-                            <motion.span
-                                className="px-4 py-2 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium"
-                                initial={{ opacity: 0, scale: 0.9 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                whileHover={{ y: -2, boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)" }}
-                                transition={{ duration: 0.2, delay: 0.3 }}
-                                viewport={{ once: true }}
-                            >Webpack</motion.span>
+                            >WordPress</motion.span>
+
                             <motion.span
                                 className="px-4 py-2 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium"
                                 initial={{ opacity: 0, scale: 0.9 }}
@@ -337,15 +322,7 @@ export default function Skill() {
                                 whileHover={{ y: -2, boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)" }}
                                 transition={{ duration: 0.2, delay: 0.35 }}
                                 viewport={{ once: true }}
-                            >Firebase</motion.span>
-                            <motion.span
-                                className="px-4 py-2 bg-gray-100 dark:bg-gray-700 rounded-full text-sm font-medium"
-                                initial={{ opacity: 0, scale: 0.9 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                whileHover={{ y: -2, boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)" }}
-                                transition={{ duration: 0.2, delay: 0.4 }}
-                                viewport={{ once: true }}
-                            >AWS</motion.span>
+                            >PhpMyAdmin</motion.span>
                         </motion.div>
                     </motion.div>
                 </motion.div>

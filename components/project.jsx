@@ -22,7 +22,7 @@ export default function Project() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
           viewport={{ once: true }}
-        >Here are some of my recent projects that showcase my skills and experience in web development and design.</motion.p>
+        >นี่คือโครงการล่าสุดของผมที่แสดงถึงทักษะและประสบการณ์ในการพัฒนาเว็บและการออกแบบ</motion.p>
 
         <motion.div
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
@@ -61,14 +61,14 @@ export default function Project() {
                   whileInView={{ opacity: 1 }}
                   transition={{ duration: 0.3, delay: 0.3 }}
                   viewport={{ once: true }}
-                >E-commerce Platform</motion.h3>
+                >ระบบจองห้องพักออนไลน์</motion.h3>
                 <motion.span
                   className="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 text-xs px-2 py-1 rounded"
                   initial={{ opacity: 0, x: 20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.3, delay: 0.4 }}
                   viewport={{ once: true }}
-                >Next.js</motion.span>
+                >PHP</motion.span>
               </div>
               <motion.p
                 className="text-gray-600 dark:text-gray-300 mb-4"
@@ -76,7 +76,7 @@ export default function Project() {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.3, delay: 0.5 }}
                 viewport={{ once: true }}
-              >A full-featured e-commerce platform with product listings, cart functionality, user authentication, and payment processing.</motion.p>
+              >ระบบจองห้องพักออนไลน์ที่มีฟังก์ชันครบถ้วน รวมถึงการจัดการห้องพัก การจอง และการชำระเงิน</motion.p>
               <motion.div
                 className="flex flex-wrap gap-2 mb-4"
                 initial={{ opacity: 0, y: 10 }}
@@ -84,11 +84,11 @@ export default function Project() {
                 transition={{ duration: 0.3, delay: 0.6 }}
                 viewport={{ once: true }}
               >
-                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">React</span>
-                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">Next.js</span>
-                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">Tailwind CSS</span>
-                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">Stripe</span>
-                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">MongoDB</span>
+                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">PHP</span>
+                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">MySQL</span>
+                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">HTML5</span>
+                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">CSS3</span>
+                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">JavaScript</span>
               </motion.div>
               <div className="flex justify-between">
                 <motion.a
@@ -152,14 +152,14 @@ export default function Project() {
                   whileInView={{ opacity: 1 }}
                   transition={{ duration: 0.3, delay: 0.3 }}
                   viewport={{ once: true }}
-                >Task Management App</motion.h3>
+                >เว็บไซต์ขายสินค้าออนไลน์</motion.h3>
                 <motion.span
                   className="bg-teal-100 dark:bg-teal-900/30 text-teal-800 dark:text-teal-300 text-xs px-2 py-1 rounded"
                   initial={{ opacity: 0, x: 20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.3, delay: 0.4 }}
                   viewport={{ once: true }}
-                >React</motion.span>
+                >WordPress</motion.span>
               </div>
               <motion.p
                 className="text-gray-600 dark:text-gray-300 mb-4"
@@ -167,7 +167,7 @@ export default function Project() {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.3, delay: 0.5 }}
                 viewport={{ once: true }}
-              >A collaborative task management application with real-time updates, drag-and-drop interface, and team collaboration features.</motion.p>
+              >เว็บไซต์ขายสินค้าออนไลน์ที่สวยงามและใช้งานง่าย มีการจัดการสินค้า การชำระเงิน และการจัดส่ง</motion.p>
               <motion.div
                 className="flex flex-wrap gap-2 mb-4"
                 initial={{ opacity: 0, y: 10 }}
@@ -175,10 +175,10 @@ export default function Project() {
                 transition={{ duration: 0.3, delay: 0.6 }}
                 viewport={{ once: true }}
               >
-                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">React</span>
-                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">Redux</span>
-                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">Firebase</span>
-                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">Styled Components</span>
+                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">WordPress</span>
+                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">WooCommerce</span>
+                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">Elementor</span>
+                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">PHP</span>
               </motion.div>
               <div className="flex justify-between">
                 <motion.a
@@ -242,14 +242,14 @@ export default function Project() {
                   whileInView={{ opacity: 1 }}
                   transition={{ duration: 0.3, delay: 0.3 }}
                   viewport={{ once: true }}
-                >Portfolio Website</motion.h3>
+                >ระบบ LINE OA สำหรับธุรกิจ</motion.h3>
                 <motion.span
                   className="bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 text-xs px-2 py-1 rounded"
                   initial={{ opacity: 0, x: 20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.3, delay: 0.4 }}
                   viewport={{ once: true }}
-                >Next.js</motion.span>
+                >LINE API</motion.span>
               </div>
               <motion.p
                 className="text-gray-600 dark:text-gray-300 mb-4"
@@ -257,7 +257,7 @@ export default function Project() {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.3, delay: 0.5 }}
                 viewport={{ once: true }}
-              >A responsive portfolio website with dark mode, smooth animations, and a custom project showcase section.</motion.p>
+              >พัฒนาระบบ LINE OA ที่ช่วยในการตอบข้อความลูกค้าอัตโนมัติ การลงทะเบียน และการรีวิวสินค้า</motion.p>
               <motion.div
                 className="flex flex-wrap gap-2 mb-4"
                 initial={{ opacity: 0, y: 10 }}
@@ -265,10 +265,10 @@ export default function Project() {
                 transition={{ duration: 0.3, delay: 0.6 }}
                 viewport={{ once: true }}
               >
-                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">Next.js</span>
-                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">Tailwind CSS</span>
-                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">Framer Motion</span>
-                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">GSAP</span>
+                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">LINE API</span>
+                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">JavaScript</span>
+                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">Webhook</span>
+                <span className="px-2 py-1 bg-gray-200 dark:bg-gray-600 rounded text-xs font-medium">PHP</span>
               </motion.div>
               <div className="flex justify-between">
                 <motion.a

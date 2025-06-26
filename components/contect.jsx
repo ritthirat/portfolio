@@ -15,14 +15,14 @@ export default function Contect() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
-            >Contact Me</motion.h2>
+            >ติดต่อฉัน</motion.h2>
             <motion.p
                 className="text-center text-gray-600 dark:text-gray-400 max-w-3xl mx-auto mb-16"
                 initial={{ opacity: 0, y: -10 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
                 viewport={{ once: true }}
-            >Have a project in mind or want to work together? Feel free to reach out using the form below or through my contact details.</motion.p>
+            >มีโปรเจกต์ในใจหรือต้องการทำงานร่วมกัน? สามารถติดต่อได้ผ่านแบบฟอร์มด้านล่างหรือข้อมูลติดต่อของฉัน</motion.p>
 
             <motion.div
                 className="grid grid-cols-1 lg:grid-cols-2 gap-12"
@@ -46,7 +46,7 @@ export default function Contect() {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5, delay: 0.7 }}
                         viewport={{ once: true }}
-                    >Send a Message</motion.h3>
+                    >ส่งข้อความ</motion.h3>
                     <form>
                         <motion.div
                             className="mb-6"
@@ -55,12 +55,12 @@ export default function Contect() {
                             transition={{ duration: 0.3, delay: 0.8 }}
                             viewport={{ once: true }}
                         >
-                            <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Your Name</label>
+                            <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">ชื่อ</label>
                             <motion.input
                                 type="text"
                                 id="name"
                                 className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-200 focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-all duration-300"
-                                placeholder="John Doe"
+                                placeholder=""
                                 whileFocus={{ scale: 1.01 }}
                             />
                         </motion.div>
@@ -71,12 +71,12 @@ export default function Contect() {
                             transition={{ duration: 0.3, delay: 0.9 }}
                             viewport={{ once: true }}
                         >
-                            <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Email Address</label>
+                            <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">อีเมล</label>
                             <motion.input
                                 type="email"
                                 id="email"
                                 className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-200 focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-all duration-300"
-                                placeholder="john@example.com"
+                                placeholder="night4te@hotmail.com"
                                 whileFocus={{ scale: 1.01 }}
                             />
                         </motion.div>
@@ -87,12 +87,12 @@ export default function Contect() {
                             transition={{ duration: 0.3, delay: 1.0 }}
                             viewport={{ once: true }}
                         >
-                            <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Subject</label>
+                            <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">หัวข้อ</label>
                             <motion.input
                                 type="text"
                                 id="subject"
                                 className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-200 focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-all duration-300"
-                                placeholder="Project Inquiry"
+                                placeholder="สอบถามงานโปรเจกต์"
                                 whileFocus={{ scale: 1.01 }}
                             />
                         </motion.div>
@@ -103,12 +103,12 @@ export default function Contect() {
                             transition={{ duration: 0.3, delay: 1.1 }}
                             viewport={{ once: true }}
                         >
-                            <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Message</label>
+                            <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">ข้อความ</label>
                             <motion.textarea
                                 id="message"
                                 rows={5}
                                 className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-200 focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-all duration-300"
-                                placeholder="Your message here..."
+                                placeholder="ข้อความของคุณ..."
                                 whileFocus={{ scale: 1.01 }}
                             ></motion.textarea>
                         </motion.div>
@@ -121,7 +121,7 @@ export default function Contect() {
                             viewport={{ once: true }}
                             whileHover={{ scale: 1.02, boxShadow: "0 4px 6px -1px rgba(79, 70, 229, 0.4)" }}
                             whileTap={{ scale: 0.98 }}
-                        >Send Message</motion.button>
+                        >ส่งข้อความ</motion.button>
                     </form>
                 </motion.div>
 
@@ -137,11 +137,11 @@ export default function Contect() {
                     <div>
                         <motion.h3
                             className="text-xl font-semibold mb-6 border-l-4 border-indigo-600 pl-3"
-                            initial={{ opacity: 0, x: 20 }}
+                            initial={{ opacity: 0, x: -20 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.5, delay: 0.7 }}
                             viewport={{ once: true }}
-                        >Contact Information</motion.h3>
+                        >ข้อมูลติดต่อ</motion.h3>
                         <div className="space-y-4">
                             <motion.div
                                 className="flex items-start"
@@ -162,13 +162,13 @@ export default function Contect() {
                                     </svg>
                                 </motion.div>
                                 <div>
-                                    <p className="font-medium text-lg">Email</p>
+                                    <p className="font-medium text-lg">อีเมล</p>
                                     <motion.a
-                                        href="mailto:yourname@example.com"
+                                        href="mailto:night4te@hotmail.com"
                                         className="text-indigo-600 dark:text-indigo-400 hover:underline"
                                         whileHover={{ x: 3 }}
                                         transition={{ type: "spring", stiffness: 400 }}
-                                    >yourname@example.com</motion.a>
+                                    >night4te@hotmail.com</motion.a>
                                 </div>
                             </motion.div>
 
@@ -190,8 +190,8 @@ export default function Contect() {
                                     </svg>
                                 </motion.div>
                                 <div>
-                                    <p className="font-medium text-lg">Phone</p>
-                                    <p>+1 (123) 456-7890</p>
+                                    <p className="font-medium text-lg">เบอร์โทรศัพท์</p>
+                                    <p>096-659-0481</p>
                                 </div>
                             </motion.div>
 
@@ -213,8 +213,8 @@ export default function Contect() {
                                     </svg>
                                 </motion.div>
                                 <div>
-                                    <p className="font-medium text-lg">Location</p>
-                                    <p>San Francisco, California</p>
+                                    <p className="font-medium text-lg">ที่อยู่</p>
+                                    <p>127/4 หมู่ 4 บ้านแม่แพง อ.แม่จัน จ.เชียงราย 57110</p>
                                 </div>
                             </motion.div>
                         </div>
@@ -232,7 +232,7 @@ export default function Contect() {
                                 whileInView={{ opacity: 1, x: 0 }}
                                 transition={{ duration: 0.5, delay: 1.2 }}
                                 viewport={{ once: true }}
-                            >Follow Me</motion.h3>
+                            >ติดตามฉัน</motion.h3>
                             <motion.div
                                 className="flex space-x-4"
                                 initial={{ opacity: 0, y: 10 }}

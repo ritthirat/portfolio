@@ -37,7 +37,7 @@ export default function About() {
                         transition={{ duration: 0.4, delay: 0.4 }}
                         viewport={{ once: true }}
                     >
-                        Hello! I'm a passionate web developer and designer with over 5 years of experience creating modern, responsive websites and applications.
+                        สวัสดีครับ! ผมเป็นนักพัฒนาเว็บไซต์ที่มุ่งเน้นด้าน Frontend Development โดยมีประสบการณ์ทำงานในการพัฒนาเว็บตามความต้องการของลูกค้า
                     </motion.p>
 
                     <motion.p
@@ -47,7 +47,7 @@ export default function About() {
                         transition={{ duration: 0.4, delay: 0.5 }}
                         viewport={{ once: true }}
                     >
-                        I specialize in front-end development using React, Next.js, and Tailwind CSS, with a strong background in UI/UX design principles. My goal is to build digital experiences that are not only visually appealing but also intuitive and accessible.
+                        ผมเชี่ยวชาญใน Next.js, React, JavaScript และ CSS ในการสร้างเว็บไซต์ที่ทันสมัยและตอบสนองความต้องการของผู้ใช้ นอกจากนี้ยังมีประสบการณ์ด้านการพัฒนาแอปพลิเคชันบนมือถือด้วย Swift 
                     </motion.p>
 
                     <motion.p
@@ -57,7 +57,7 @@ export default function About() {
                         transition={{ duration: 0.4, delay: 0.6 }}
                         viewport={{ once: true }}
                     >
-                        When I'm not coding, you can find me exploring new design trends, contributing to open source projects, or enjoying outdoor activities like hiking and photography.
+                        เมื่อไม่ได้เขียนโค้ด คุณจะเห็นผมพัฒนาโครงการส่วนตัวเกี่ยวกับระบบรักษาความปลอดภัยภายในบ้านและแดชบอร์ดเว็บไซต์ 
                     </motion.p>
 
                     <motion.div
@@ -100,7 +100,7 @@ export default function About() {
                                 </motion.div>
                                 <div>
                                     <p className="text-sm text-gray-500 dark:text-gray-400">Email</p>
-                                    <p className="text-gray-700 dark:text-gray-300">your.email@example.com</p>
+                                    <p className="text-gray-700 dark:text-gray-300">ritthirat.m@gmail.com</p>
                                 </div>
                             </motion.div>
 
@@ -123,7 +123,7 @@ export default function About() {
                                 </motion.div>
                                 <div>
                                     <p className="text-sm text-gray-500 dark:text-gray-400">Phone</p>
-                                    <p className="text-gray-700 dark:text-gray-300">+1 123 456 7890</p>
+                                    <p className="text-gray-700 dark:text-gray-300">098-659-0481</p>
                                 </div>
                             </motion.div>
 
@@ -145,8 +145,8 @@ export default function About() {
                                     </svg>
                                 </motion.div>
                                 <div>
-                                    <p className="text-sm text-gray-500 dark:text-gray-400">Location</p>
-                                    <p className="text-gray-700 dark:text-gray-300">Bangkok, Thailand</p>
+                                    <p className="text-sm text-gray-500 dark:text-gray-400">Address</p>
+                                    <p className="text-gray-700 dark:text-gray-300">127/4 บ้านแม่แพง  จ.เชียงราย</p>
                                 </div>
                             </motion.div>
 
@@ -170,7 +170,7 @@ export default function About() {
                                 </motion.div>
                                 <div>
                                     <p className="text-sm text-gray-500 dark:text-gray-400">Freelance</p>
-                                    <p className="text-gray-700 dark:text-gray-300">Available</p>
+                                    <p className="text-gray-700 dark:text-gray-300">Frontend Developer</p>
                                 </div>
                             </motion.div>
                         </motion.div>
@@ -202,21 +202,21 @@ export default function About() {
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: 0.4, delay: 0.3 }}
                                 viewport={{ once: true }}
-                            >5+</motion.div>
+                            >2+ </motion.div>
                             <motion.h3
                                 className="text-lg font-medium mb-1"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.3, delay: 0.4 }}
                                 viewport={{ once: true }}
-                            >Years Experience</motion.h3>
+                            >ปีประสบการณ์</motion.h3>
                             <motion.p
                                 className="text-gray-600 dark:text-gray-400 text-sm"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.3, delay: 0.5 }}
                                 viewport={{ once: true }}
-                            >In web development</motion.p>
+                            >ในการพัฒนาเว็บไซต์</motion.p>
                         </motion.div>
 
                         <motion.div
@@ -236,21 +236,21 @@ export default function About() {
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: 0.4, delay: 0.4 }}
                                 viewport={{ once: true }}
-                            >50+</motion.div>
+                            >4+</motion.div>
                             <motion.h3
                                 className="text-lg font-medium mb-1"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.3, delay: 0.5 }}
                                 viewport={{ once: true }}
-                            >Projects Completed</motion.h3>
+                            >โปรเจกต์ที่สำเร็จ</motion.h3>
                             <motion.p
                                 className="text-gray-600 dark:text-gray-400 text-sm"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.3, delay: 0.6 }}
                                 viewport={{ once: true }}
-                            >Across various industries</motion.p>
+                            >ในหลากหลายอุตสาหกรรม</motion.p>
                         </motion.div>
 
                         <motion.div
@@ -277,14 +277,14 @@ export default function About() {
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.3, delay: 0.6 }}
                                 viewport={{ once: true }}
-                            >Client Satisfaction</motion.h3>
+                            >ความพึงพอใจของลูกค้า</motion.h3>
                             <motion.p
                                 className="text-gray-600 dark:text-gray-400 text-sm"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.3, delay: 0.7 }}
                                 viewport={{ once: true }}
-                            >From client reviews</motion.p>
+                            >จากรีวิวของลูกค้า</motion.p>
                         </motion.div>
 
                         <motion.div
@@ -304,21 +304,21 @@ export default function About() {
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: 0.4, delay: 0.6 }}
                                 viewport={{ once: true }}
-                            >15+</motion.div>
+                            >2+</motion.div>
                             <motion.h3
                                 className="text-lg font-medium mb-1"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.3, delay: 0.7 }}
                                 viewport={{ once: true }}
-                            >Awards Received</motion.h3>
+                            >ปีที่เชี่ยวชาญการใช้ Next.js</motion.h3>
                             <motion.p
                                 className="text-gray-600 dark:text-gray-400 text-sm"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.3, delay: 0.8 }}
                                 viewport={{ once: true }}
-                            >For design excellence</motion.p>
+                            >การพัฒนาแอพพลิเคชั่นที่ทันสมัย</motion.p>
                         </motion.div>
                     </motion.div>
                     <motion.div
@@ -334,7 +334,7 @@ export default function About() {
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                         >
-                            <span>Download CV</span>
+                            <span>ดาวน์โหลด CV</span>
                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>

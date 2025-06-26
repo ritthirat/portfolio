@@ -15,13 +15,13 @@ export default function Home() {
       {/* Navigation */}
       <nav className="sticky top-0 z-10 bg-white/70 dark:bg-gray-900/70 backdrop-blur-md shadow-sm px-6 py-4">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <div className="text-xl font-bold text-indigo-600 dark:text-indigo-400">My Portfolio</div>
+          <div className="text-xl font-bold text-indigo-600 dark:text-indigo-400">พอร์ตโฟลิโอของฉัน</div>
           <div className="hidden md:flex space-x-8">
-            <a href="#home" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Home</a>
-            <a href="#about" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">About</a>
-            <a href="#skills" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Skills</a>
-            <a href="#projects" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Projects</a>
-            <a href="#contact" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Contact</a>
+            <a href="#home" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">หน้าแรก</a>
+            <a href="#about" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">เกี่ยวกับฉัน</a>
+            <a href="#skills" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">ทักษะ</a>
+            <a href="#projects" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">โปรเจกต์</a>
+            <a href="#contact" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">ติดต่อ</a>
           </div>
           <button className="md:hidden focus:outline-none">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -61,8 +61,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
-              <div className="text-xl font-bold text-indigo-400">Your Name</div>
-              <p className="text-gray-400 mt-2">© {new Date().getFullYear()} All Rights Reserved</p>
+              <div className="text-xl font-bold text-indigo-400">ฤทธิรัตน์ มูลวงค์</div>
+              <p className="text-gray-400 mt-2">© {new Date().getFullYear()} สงวนลิขสิทธิ์</p>
             </div>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">

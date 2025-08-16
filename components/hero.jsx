@@ -105,7 +105,7 @@ export default function Hero() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <img 
-                src="/profile2.jpg" 
+                src="/profile3.jpg" 
                 alt="ฤทธิรัตน์ มูลวงค์" 
                 className="w-full h-full object-cover rounded-full"
               />

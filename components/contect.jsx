@@ -10,7 +10,7 @@ export default function Contect() {
             viewport={{ once: true }}
         >
             <motion.h2
-                className="text-3xl font-bold text-center mb-6"
+                className="text-3xl font-bold text-center mb-6  text-gray-800 dark:text-gray-100"
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
@@ -41,7 +41,7 @@ export default function Contect() {
                     whileHover={{ boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)" }}
                 >
                     <motion.h3
-                        className="text-xl font-semibold mb-6 border-l-4 border-indigo-600 pl-3"
+                        className="text-xl font-semibold mb-6 border-l-4 border-indigo-600 pl-3 text-gray-800 dark:text-gray-100"
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5, delay: 0.7 }}
@@ -114,7 +114,7 @@ export default function Contect() {
                         </motion.div>
                         <motion.button
                             type="submit"
-                            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-4 rounded-md transition-all duration-300"
+                            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-4 rounded-md transition-all duration-300 "
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 0.3, delay: 1.2 }}
@@ -132,11 +132,11 @@ export default function Contect() {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6, delay: 0.5 }}
                     viewport={{ once: true }}
-                    whileHover={{ boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)" }}
+                
                 >
                     <div>
                         <motion.h3
-                            className="text-xl font-semibold mb-6 border-l-4 border-indigo-600 pl-3"
+                            className="text-xl font-semibold mb-6 border-l-4 border-indigo-600 pl-3  text-gray-800 dark:text-gray-100"
                             initial={{ opacity: 0, x: -20 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.5, delay: 0.7 }}
@@ -162,7 +162,7 @@ export default function Contect() {
                                     </svg>
                                 </motion.div>
                                 <div>
-                                    <p className="font-medium text-lg">อีเมล</p>
+                                    <p className="font-medium text-lg  text-gray-800 dark:text-gray-100">อีเมล</p>
                                     <motion.a
                                         href="mailto:night4te@hotmail.com"
                                         className="text-indigo-600 dark:text-indigo-400 hover:underline"
@@ -190,8 +190,8 @@ export default function Contect() {
                                     </svg>
                                 </motion.div>
                                 <div>
-                                    <p className="font-medium text-lg">เบอร์โทรศัพท์</p>
-                                    <p>096-659-0481</p>
+                                    <p className="font-medium text-lg  text-gray-800 dark:text-gray-100">เบอร์โทรศัพท์</p>
+                                    <p className="text-gray-600 dark:text-gray-400">096-659-0481</p>
                                 </div>
                             </motion.div>
 
@@ -213,8 +213,8 @@ export default function Contect() {
                                     </svg>
                                 </motion.div>
                                 <div>
-                                    <p className="font-medium text-lg">ที่อยู่</p>
-                                    <p>127/4 หมู่ 4 บ้านแม่แพง อ.แม่จัน จ.เชียงราย 57110</p>
+                                    <p className="font-medium text-lg  text-gray-800 dark:text-gray-100">ที่อยู่</p>
+                                    <p className="text-gray-600 dark:text-gray-400">127/4 หมู่ 4 บ้านแม่แพง อ.แม่จัน จ.เชียงราย 57110</p>
                                 </div>
                             </motion.div>
                         </div>
@@ -227,7 +227,7 @@ export default function Contect() {
                             viewport={{ once: true }}
                         >
                             <motion.h3
-                                className="text-xl font-semibold mb-6 border-l-4 border-indigo-600 pl-3"
+                                className="text-xl font-semibold mb-6 border-l-4 border-indigo-600 pl-3 text-gray-800 dark:text-gray-100"
                                 initial={{ opacity: 0, x: 20 }}
                                 whileInView={{ opacity: 1, x: 0 }}
                                 transition={{ duration: 0.5, delay: 1.2 }}

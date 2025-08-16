@@ -9,7 +9,7 @@ export default function About() {
             viewport={{ once: true }}
         >
             <motion.h2
-                className="text-3xl font-bold text-center mb-16"
+                className="text-3xl font-bold text-center mb-16 text-gray-800 dark:text-gray-100 "
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
@@ -68,7 +68,7 @@ export default function About() {
                         viewport={{ once: true }}
                     >
                         <motion.h3
-                            className="text-xl font-semibold mb-4"
+                            className="text-xl font-semibold mb-4  text-gray-800 dark:text-gray-100"
                             initial={{ opacity: 0, x: -10 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.3, delay: 0.8 }}
@@ -197,21 +197,21 @@ export default function About() {
                             }}
                         >
                             <motion.div
-                                className="text-4xl font-bold text-indigo-600 dark:text-indigo-400 mb-2"
+                                className="text-4xl font-bold text-indigo-600 dark:text-indigo-400 mb-2  text-gray-800 dark:text-gray-100"
                                 initial={{ opacity: 0, scale: 0.5 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: 0.4, delay: 0.3 }}
                                 viewport={{ once: true }}
                             >2+ </motion.div>
                             <motion.h3
-                                className="text-lg font-medium mb-1"
+                                className="text-lg font-medium mb-1  text-gray-800 dark:text-gray-100"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.3, delay: 0.4 }}
                                 viewport={{ once: true }}
                             >ปีประสบการณ์</motion.h3>
                             <motion.p
-                                className="text-gray-600 dark:text-gray-400 text-sm"
+                                className="text-gray-600 dark:text-gray-400 text-sm  text-gray-800 dark:text-gray-100"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.3, delay: 0.5 }}
@@ -220,7 +220,7 @@ export default function About() {
                         </motion.div>
 
                         <motion.div
-                            className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-sm"
+                            className="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg shadow-sm "
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.4, delay: 0.2 }}
@@ -231,14 +231,14 @@ export default function About() {
                             }}
                         >
                             <motion.div
-                                className="text-4xl font-bold text-indigo-600 dark:text-indigo-400 mb-2"
+                                className="text-4xl font-bold text-indigo-600 dark:text-indigo-400 mb-2  "
                                 initial={{ opacity: 0, scale: 0.5 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: 0.4, delay: 0.4 }}
                                 viewport={{ once: true }}
                             >4+</motion.div>
                             <motion.h3
-                                className="text-lg font-medium mb-1"
+                                className="text-lg font-medium mb-1  text-gray-800 dark:text-gray-100"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.3, delay: 0.5 }}
@@ -272,7 +272,7 @@ export default function About() {
                                 viewport={{ once: true }}
                             >99%</motion.div>
                             <motion.h3
-                                className="text-lg font-medium mb-1"
+                                className="text-lg font-medium mb-1  text-gray-800 dark:text-gray-100"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.3, delay: 0.6 }}
@@ -306,7 +306,7 @@ export default function About() {
                                 viewport={{ once: true }}
                             >2+</motion.div>
                             <motion.h3
-                                className="text-lg font-medium mb-1"
+                                className="text-lg font-medium mb-1  text-gray-800 dark:text-gray-100"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 0.3, delay: 0.7 }}
